@@ -162,18 +162,18 @@ Bagian konten utama ditampilkan dalam sebuah kotak dengan class .about-box. Kota
   ```
   Riwayat pendidikan ditampilkan dalam bentuk tabel dengan class .edu-table. Tabel ini berisi tiga kolom utama, yaitu tahun, jenjang pendidikan, dan institusi. Tampilan tabel diperindah dengan border berwarna pink, header berwarna pink dengan teks putih, serta pewarnaan bergantian pada baris genap agar mudah dibaca. Informasi yang dimasukkan meliputi pendidikan dari tingkat sekolah dasar hingga universitas, sehingga pembaca dapat melihat perjalanan pendidikan secara jelas dan terstruktur.
 
-  6. Ikuti Akun Sosmed
-  ```Html
-  <section>
+6. Ikuti Akun Sosmed
+```Html
+<section>
     <h2>Ikuti Saya</h2>
-   <div class="social"> 
+    <div class="social"> 
     <a href="https://www.instagram.com/zastri_naji?igsh=OW81YWI0cGthYjcy"target="_blank">Instagram</a> 
     <a href="https://www.tiktok.com/@zastri.naji?_t=ZS-8zYcOpOJEDY&_r=1" target="_blank">TikTok</a> <a href="https://wa.me/6285249538797" target="_blank">WhatsApp</a>
     <a href="https://github.com/Astriii123" target="_blank">Github</a> 
     </div>
     </section>
-     ```
-     Pada bagian Ikuti Saya, ditampilkan beberapa tautan ke media sosial pemilik portofolio, seperti Instagram, TikTok, WhatsApp, dan GitHub. Tautan tersebut ditampilkan dalam bentuk tombol oval dengan warna dasar putih, teks pink, serta border berwarna pink. Efek hover digunakan sehingga ketika kursor diarahkan ke tombol, warnanya berubah menjadi pink dengan teks putih. Hal ini memberikan kesan interaktif dan menarik perhatian pengguna untuk mengunjungi akun media sosial pemilik portofolio.
+```
+Pada bagian Ikuti Saya, ditampilkan beberapa tautan ke media sosial pemilik portofolio, seperti Instagram, TikTok, WhatsApp, dan GitHub. Tautan tersebut ditampilkan dalam bentuk tombol oval dengan warna dasar putih, teks pink, serta border berwarna pink. Efek hover digunakan sehingga ketika kursor diarahkan ke tombol, warnanya berubah menjadi pink dengan teks putih. Hal ini memberikan kesan interaktif dan menarik perhatian pengguna untuk mengunjungi akun media sosial pemilik portofolio.
 
 7. footrer
 ```Html
