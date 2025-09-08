@@ -106,6 +106,7 @@ Tabel Latar Belakang Pendidikan dibuat penuh lebar, border pink, baris genap dib
 </header>
 ```
 Menampilkan foto profil bulat, nama pemilik portofolio, dan ikon hati 💕.
+
 4. Bagian tentang saya
 ```Html
 <section class="about-box">
@@ -129,7 +130,6 @@ Bagian konten utama ditampilkan dalam sebuah kotak dengan class .about-box. Kota
 
 5. latar belakang pendididkan
 ```Html
-
 <h2>Latar Belakang Pendidikan</h2>
     <table class="edu-table">
       <tr>
@@ -175,14 +175,13 @@ Bagian konten utama ditampilkan dalam sebuah kotak dengan class .about-box. Kota
      ```
      Pada bagian Ikuti Saya, ditampilkan beberapa tautan ke media sosial pemilik portofolio, seperti Instagram, TikTok, WhatsApp, dan GitHub. Tautan tersebut ditampilkan dalam bentuk tombol oval dengan warna dasar putih, teks pink, serta border berwarna pink. Efek hover digunakan sehingga ketika kursor diarahkan ke tombol, warnanya berubah menjadi pink dengan teks putih. Hal ini memberikan kesan interaktif dan menarik perhatian pengguna untuk mengunjungi akun media sosial pemilik portofolio.
 
-     7. footrer
-     ```Html
-    <footer>
-    <p>© 2025 Portofolio Astri</p>
-    </footer>
-    ```
-     Bagian terakhir dari program adalah footer yang berisi teks “© 2025 Portofolio Astri”.
-
+7. footrer
+ ```Html
+<footer>
+<p>© 2025 Portofolio Astri</p>
+</footer>
+```
+Bagian terakhir dari program adalah footer yang berisi teks “© 2025 Portofolio Astri.
 
 
 
