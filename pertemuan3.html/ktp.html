@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form KTP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .form-box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      width: 350px;
+    }
+    h2 {
+      text-align: center;
+      color: #0077b6;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      margin-top: 15px;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: #0077b6;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005f87;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-box">
+    <h2>Form Pengisian KTP</h2>
+    <form>
+      <label>Nama Lengkap:</label>
+      <input type="text" name="nama">
+
+      <label>NIK:</label>
+      <input type="text" name="nik">
+
+      <label>Tempat, Tanggal Lahir:</label>
+      <input type="text" name="ttl">
+
+      <label>Jenis Kelamin:</label>
+      <select name="jk">
+        <option>Laki-laki</option>
+        <option>Perempuan</option>
+      </select>
+
+      <label>Agama:</label>
+      <select name="Agama">
+        <option>Islam</option>
+        <option>Kristen</option>
+        <option>Hindu</option>
+        <option>Budha</option>
+        <option>Protestan</option>
+      </select>
+
+      <label>Alamat:</label>
+      <input type="text" name="alamat">
+
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+</body>
+</html>

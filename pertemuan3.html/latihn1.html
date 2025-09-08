@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: pink;
+      margin: 0;
+      text-align: center;
+    }
+    header {
+      background: pink;
+      padding: 20px;
+      color: white;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    /* tabel 2 kolom */
+    .about-table {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+      border-spacing: 20px;
+    }
+    .about-box {
+      background: white;
+      border: 2px solid pink;
+      border-radius: 12px;
+      padding: 15px;
+      text-align: left;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      animation: fadeUp 1s ease; /* animasi */
+    }
+    .about-box h2 {
+      text-align: center;
+      color: #ff4da6;
+      margin-top: 0;
+    }
+    .bio-desc {
+      font-style: italic;
+      text-align: justify;
+      line-height: 1.6;
+    }
+    /* tabel pendidikan */
+    .edu-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .edu-table th, .edu-table td {
+      border: 1px solid pink;
+      padding: 6px;
+      text-align: left;
+    }
+    .edu-table th {
+      background: #ff4da6;
+      color: white;
+    }
+    .edu-table tr:nth-child(even) {
+      background: #ffe6f0;
+    }
+    /* sosial media */
+    .social a {
+      display: inline-block;
+      margin: 5px;
+      padding: 8px 15px;
+      border: 1px solid #ff4da6;
+      border-radius: 15px;
+      text-decoration: none;
+      color: #ff4da6;
+      transition: 0.3s;
+    }
+    .social a:hover {
+      background: #ff4da6;
+      color: white;
+    }
+    footer {
+      background: #ffb6c1;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    /* animasi */
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Astri.jpg.jpg" alt="Foto Profil" class="profile-pic">
+    <h1>Halo, I'm Astri 🌸</h1>
+  </header>
+
+  <!-- tabel 2 kolom -->
+  <table class="about-table">
+    <tr>
+      <!-- Kolom kiri -->
+      <td class="about-box">
+        <h2>Tentang Saya</h2>
+        <p><b>Nama:</b> Sulastri</p>
+        <p><b>Pendidikan:</b> Mahasiswa Teknik Komputer (Angkatan 2024)</p>
+        <p><b>Minat:</b> Teknologi, Desain Web, Pengembangan Aplikasi</p>
+        <p><b>Hobi:</b> Nonton TikTok</p>
+        <div class="bio-desc">
+          Saya bersemangat mempelajari hal-hal baru di bidang teknologi.  
+          Dunia digital adalah ruang tanpa batas untuk berkreasi dan berinovasi.  
+          Harapan saya ke depan adalah menjadi profesional yang menginspirasi 🌸
+        </div>
+      </td>
+
+      <!-- Kolom kanan -->
+      <td class="about-box">
+        <h2>Latar Belakang Pendidikan</h2>
+        <table class="edu-table">
+          <tr><th>Tahun</th><th>Jenjang</th><th>Institusi</th></tr>
+          <tr><td>2012 - 2018</td><td>SD</td><td>SDNK Rante Padang</td></tr>
+          <tr><td>2018 - 2021</td><td>SMP</td><td>MTSG Gandeng</td></tr>
+          <tr><td>2021 - 2024</td><td>SMK</td><td>SMKN 4 Enrekang</td></tr>
+          <tr><td>2024 - Sekarang</td><td>Universitas</td><td>UNM Makassar</td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!-- sosial media -->
+  <div class="social">
+    <a href="https://www.instagram.com/zastri_naji" target="_blank">Instagram</a>
+    <a href="https://www.tiktok.com/@zastri.naji" target="_blank">TikTok</a>
+    <a href="https://wa.me/6285249538797" target="_blank">WhatsApp</a>
+    <a href="https://github.com/Astriii123" target="_blank">Github</a>
+  </div>
+
+  <footer>
+    © 2025 Portofolio Astri
+  </footer>
+</body>
+</html>

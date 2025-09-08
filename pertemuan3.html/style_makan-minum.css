@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: pink; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 30px;
+  background-color: pink; 
+  color: white;
+}
+
+header h1 {
+  margin: 10px 0;
+}
+
+/* foto profil bulat */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* kotak umum */
+.box {
+  max-width: 700px;
+  margin: 20px auto;
+  background: white;
+  border: 2px solid pink;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.box h2 {
+  text-align: center;
+  color: #ff4da6;
+}
+
+.bio-info p {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+.bio-desc {
+  margin-top: 15px;
+  font-style: italic;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+/* tabel pendidikan */
+.edu-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.edu-table th, .edu-table td {
+  border: 1px solid pink;
+  padding: 8px;
+  text-align: left;
+}
+
+.edu-table th {
+  background: #ff4da6;
+  color: white;
+}
+
+.edu-table tr:nth-child(even) {
+  background: #ffe6f0;
+}
+
+/* tombol sosial */
+.social a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  background: white;
+  color: #ff4da6;
+  border: 2px solid #ff4da6;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  background: #ff4da6;
+  color: white;
+}
+
+footer {
+  padding: 15px;
+  background-color: #ffb6c1;
+  color: white;
+  margin-top: 20px;
+}
