@@ -159,8 +159,8 @@ Bagian konten utama ditampilkan dalam sebuah kotak dengan class .about-box. Kota
       </tr>
     </table>
     </section>
-  ```
-  Riwayat pendidikan ditampilkan dalam bentuk tabel dengan class .edu-table. Tabel ini berisi tiga kolom utama, yaitu tahun, jenjang pendidikan, dan institusi. Tampilan tabel diperindah dengan border berwarna pink, header berwarna pink dengan teks putih, serta pewarnaan bergantian pada baris genap agar mudah dibaca. Informasi yang dimasukkan meliputi pendidikan dari tingkat sekolah dasar hingga universitas, sehingga pembaca dapat melihat perjalanan pendidikan secara jelas dan terstruktur.
+```
+Riwayat pendidikan ditampilkan dalam bentuk tabel dengan class .edu-table. Tabel ini berisi tiga kolom utama, yaitu tahun, jenjang pendidikan, dan institusi. Tampilan tabel diperindah dengan border berwarna pink, header berwarna pink dengan teks putih, serta pewarnaan bergantian pada baris genap agar mudah dibaca. Informasi yang dimasukkan meliputi pendidikan dari tingkat sekolah dasar hingga universitas, sehingga pembaca dapat melihat perjalanan pendidikan secara jelas dan terstruktur.
 
 6. Ikuti Akun Sosmed
 ```Html
