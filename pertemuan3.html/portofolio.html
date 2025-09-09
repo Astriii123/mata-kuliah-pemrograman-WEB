@@ -4,8 +4,104 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portofolio Saya</title>
-  <!-- Hubungkan dengan file CSS -->
-  <link rel="stylesheet" href="style_portofolio.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color:pink; 
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 30px;
+      background-color: pink; 
+      color: white;
+    }
+    header h1 {
+      margin: 10px 0;
+    }
+    p {
+      color: #555;
+    }
+    /* gambar profil bulat */
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .social a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      background: white;
+      color: #ff4da6;
+      border: 2px solid #ff4da6;
+      transition: 0.3s;
+    }
+    .social a:hover {
+      background: #ff4da6;
+      color: white;
+    }
+    section {
+      padding: 20px;
+    }
+    /* kotak biodata */
+    .about-box {
+      max-width: 700px;
+      margin: 20px auto;
+      background: white;
+      border: 2px solid pink;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    .about-box h2 {
+      text-align: center;
+      margin-top: 0;
+      color: #ff4da6;
+    }
+    .bio-info p {
+      margin: 5px 0;
+      line-height: 1.6;
+    }
+    .bio-desc {
+      margin-top: 15px;
+      font-style: italic;
+      text-align: justify;
+      line-height: 1.8;
+    }
+    /* tabel pendidikan */
+    .edu-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    .edu-table th, .edu-table td {
+      border: 1px solid pink;
+      padding: 8px;
+      text-align: left;
+    }
+    .edu-table th {
+      background: #ff4da6;
+      color: white;
+    }
+    .edu-table tr:nth-child(even) {
+      background: #ffe6f0;
+    }
+    footer {
+      padding: 15px;
+      background-color: #ffb6c1;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -14,8 +110,7 @@
     <p>💕</p>
   </header>
 
-  <!-- Tentang Saya -->
-  <section class="box">
+  <section class="about-box">
     <h2>Tentang Saya</h2>
     <div class="bio-info">
       <p><b>Nama:</b> Sulastri</p>
@@ -23,6 +118,7 @@
       <p><b>Minat:</b> Teknologi, Desain Web, dan Pengembangan Aplikasi</p>
       <p><b>Hobi:</b> Nonton TikTok</p>
     </div>
+
     <div class="bio-desc">
       Saya adalah pribadi yang bersemangat dalam mempelajari hal-hal baru di bidang teknologi. 
       Bagi saya, dunia digital adalah ruang tanpa batas untuk berkreasi dan berinovasi. 
@@ -31,10 +127,7 @@
       Harapan saya ke depan adalah menjadi seorang profesional yang bisa menginspirasi 
       dan berkontribusi dalam dunia teknologi. 🌸
     </div>
-  </section>
 
-  <!-- Latar Belakang Pendidikan -->
-  <section class="box">
     <h2>Latar Belakang Pendidikan</h2>
     <table class="edu-table">
       <tr>
@@ -60,17 +153,16 @@
       <tr>
         <td>2024 - Sekarang</td>
         <td>Universitas</td>
-        <td>Universitas Negeri Makassar</td>
+        <td> Universitas Negeri Makassar</td>
       </tr>
     </table>
   </section>
-
-  <!-- Sosial Media -->
+ 
   <section>
     <h2>Ikuti Saya</h2>
     <div class="social">
-      <a href="https://www.instagram.com/zastri_naji" target="_blank">Instagram</a>
-      <a href="https://www.tiktok.com/@zastri.naji" target="_blank">TikTok</a>
+      <a href="https://www.instagram.com/zastri_naji?igsh=OW81YWI0cGthYjcy" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com/@zastri.naji?_t=ZS-8zYcOpOJEDY&_r=1" target="_blank">TikTok</a>
       <a href="https://wa.me/6285249538797" target="_blank">WhatsApp</a>
       <a href="https://github.com/Astriii123" target="_blank">Github</a>
     </div>
