@@ -118,40 +118,49 @@ Menampilkan foto profil bulat, nama pemilik portofolio, dan ikon hati 💕.
     <p><b>Hobi:</b> Nonton TikTok</p>
   </div>
   <div class="bio-desc">
-    Saya adalah pribadi yang bersemangat dalam mempelajari hal-hal baru di bidang teknologi.  
-    Bagi saya, dunia digital adalah ruang tanpa batas untuk berkreasi dan berinovasi.  
-    Saya ingin terus mengembangkan keterampilan dalam pemrograman, desain antarmuka,  
-    dan membangun aplikasi yang bermanfaat.  
-    Harapan saya ke depan adalah menjadi seorang profesional yang bisa menginspirasi  
-    dan berkontribusi dalam dunia teknologi. 🌸
-  </div>
-</section>
+      Saya adalah pribadi yang bersemangat dalam mempelajari hal-hal baru di bidang teknologi. 
+      Bagi saya, dunia digital adalah ruang tanpa batas untuk berkreasi dan berinovasi. 
+      Saya ingin terus mengembangkan keterampilan dalam pemrograman, desain antarmuka, 
+      dan membangun aplikasi yang bermanfaat.  
+      Harapan saya ke depan adalah menjadi seorang profesional yang bisa menginspirasi 
+      dan berkontribusi dalam dunia teknologi. 🌸
+    </div>
+    ```
+Bagian konten utama ditampilkan dalam sebuah kotak dengan class .about-box. Kotak ini memiliki background putih, border pink, sudut membulat, serta bayangan halus sehingga tampil lebih menarik. Di dalamnya terdapat informasi tentang pemilik portofolio, seperti nama, pendidikan, minat, dan hobi. Terdapat pula deskripsi singkat mengenai kepribadian, semangat belajar, serta harapan di masa depan.
 
 5. latar belakang pendididkan
 ```Html
 <h2>Latar Belakang Pendidikan</h2>
-<table class="edu-table">
-  <tr>
-    <th>Tahun</th>
-    <th>Jenjang</th>
-    <th>Institusi</th>
-  </tr>
-  <tr>
-    <td>2012 - 2018</td>
-    <td>Sekolah Dasar</td>
-    <td>SDNK Rante Padang</td>
-  </tr>
-  <tr>
-    <td>2018 - 2021</td>
-    <td>SMP</td>
-    <td>MTSG Gandeng</td>
-  </tr>
-  <tr>
-    <td>2021 - 2024</td>
-    <td>SMK</td>
-    <td>-</td>
-  </tr>
-</table>
+    <table class="edu-table">
+      <tr>
+        <th>Tahun</th>
+        <th>Jenjang</th>
+        <th>Institusi</th>
+      </tr>
+      <tr>
+        <td>2012 - 2018</td>
+        <td>Sekolah Dasar</td>
+        <td>SDNK Rante Padang</td>
+      </tr>
+      <tr>
+        <td>2018 - 2021</td>
+        <td>SMP</td>
+        <td>MTSG Gandeng</td>
+      </tr>
+      <tr>
+        <td>2021 - 2024</td>
+        <td>SMK</td>
+        <td>SMK Negeri 4 Enrekang</td>
+      </tr>
+      <tr>
+        <td>2024 - Sekarang</td>
+        <td>Universitas</td>
+        <td>Universitas Negeri Makassar</td>
+      </tr>
+    </table>
+    </section>
+```
+Riwayat pendidikan ditampilkan dalam bentuk tabel dengan class .edu-table. Tabel ini berisi tiga kolom utama, yaitu tahun, jenjang pendidikan, dan institusi. Tampilan tabel diperindah dengan border berwarna pink, header berwarna pink dengan teks putih, serta pewarnaan bergantian pada baris genap agar mudah dibaca. Informasi yang dimasukkan meliputi pendidikan dari tingkat sekolah dasar hingga universitas, sehingga pembaca dapat melihat perjalanan pendidikan secara jelas dan terstruktur.
 
 6. Ikuti Akun Sosmed
 ```Html
