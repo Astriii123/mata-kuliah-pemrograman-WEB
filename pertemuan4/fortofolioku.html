@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio 3 Slide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color:pink;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    .slide {
+      display: none;
+      padding: 20px;
+      min-height: 100vh;
+    }
+    .active {
+      display: block;
+    }
+    /* tombol navigasi */
+    .nav-btn {
+      margin: 15px;
+      padding: 10px 20px;
+      border: none;
+      background: #ff4da6;
+      color: white;
+      font-weight: bold;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    .nav-btn:hover {
+      background: #e60073;
+    }
+    /* styling portofolio (slide 2) */
+    header {
+      padding: 30px;
+      background-color: pink;
+      color: white;
+    }
+    header h1 {
+      margin: 10px 0;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .about-box {
+      max-width: 700px;
+      margin: 20px auto;
+      background: white;
+      border: 2px solid pink;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    .about-box h2 {
+      text-align: center;
+      color: #ff4da6;
+    }
+    .edu-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    .edu-table th, .edu-table td {
+      border: 1px solid pink;
+      padding: 8px;
+      text-align: left;
+    }
+    .edu-table th {
+      background: #ff4da6;
+      color: white;
+    }
+    .edu-table tr:nth-child(even) {
+      background: #ffe6f0;
+    }
+    .social a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      background: white;
+      color: #ff4da6;
+      border: 2px solid #ff4da6;
+      transition: 0.3s;
+    }
+    .social a:hover {
+      background: #ff4da6;
+      color: white;
+    }
+    footer {
+      padding: 15px;
+      background-color: #ffb6c1;
+      color: white;
+      margin-top: 20px;
+    }
+    /* slide 3 galeri */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1 -->
+  <div class="slide active" id="slide1">
+    <h1>Hello Guys 👋, Selamat Datang di Portofolio Saya👋</h1>
+    <button class="nav-btn" onclick="nextSlide(2)">Lanjut ➡</button>
+  </div>
+
+  <!-- Slide 2: Portofolio -->
+  <div class="slide" id="slide2">
+    <header>
+      <img src="Astri.jpg.jpg" alt="Foto Profil" class="profile-pic">
+      <h1>Halo, I'm Astri 🌸</h1>
+      <p>💕</p>
+    </header>
+
+    <section class="about-box">
+      <h2>Tentang Saya</h2>
+      <div class="bio-info">
+        <p><b>Nama:</b> Sulastri</p>
+        <p><b>Pendidikan:</b> Mahasiswa Teknik Komputer (Angkatan 2024)</p>
+        <p><b>Minat:</b> Teknologi, Desain Web, dan Pengembangan Aplikasi</p>
+        <p><b>Hobi:</b> Nonton TikTok</p>
+      </div>
+
+      <div class="bio-desc">
+        Saya adalah pribadi yang bersemangat dalam mempelajari hal-hal baru di bidang teknologi. 
+        Bagi saya, dunia digital adalah ruang tanpa batas untuk berkreasi dan berinovasi. 
+        Saya ingin terus mengembangkan keterampilan dalam pemrograman, desain antarmuka, 
+        dan membangun aplikasi yang bermanfaat.  
+        Harapan saya ke depan adalah menjadi seorang profesional yang bisa menginspirasi 
+        dan berkontribusi dalam dunia teknologi. 🌸
+      </div>
+
+      <h2>Latar Belakang Pendidikan</h2>
+      <table class="edu-table">
+        <tr>
+          <th>Tahun</th>
+          <th>Jenjang</th>
+          <th>Institusi</th>
+        </tr>
+        <tr>
+          <td>2012 - 2018</td>
+          <td>Sekolah Dasar</td>
+          <td>SDNK Rante Padang</td>
+        </tr>
+        <tr>
+          <td>2018 - 2021</td>
+          <td>SMP</td>
+          <td>MTSG Gandeng</td>
+        </tr>
+        <tr>
+          <td>2021 - 2024</td>
+          <td>SMK</td>
+          <td>SMK Negeri 4 Enrekang</td>
+        </tr>
+        <tr>
+          <td>2024 - Sekarang</td>
+          <td>Universitas</td>
+          <td>Universitas Negeri Makassar</td>
+        </tr>
+      </table>
+    </section>
+   
+    <section>
+      <h2>Ikuti Saya</h2>
+      <div class="social">
+        <a href="https://www.instagram.com/zastri_naji" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@zastri.naji" target="_blank">TikTok</a>
+        <a href="https://wa.me/6285249538797" target="_blank">WhatsApp</a>
+        <a href="https://github.com/Astriii123" target="_blank">Github</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Portofolio Astri</p>
+    </footer>
+
+    <button class="nav-btn" onclick="nextSlide(1)">⬅ Kembali</button>
+    <button class="nav-btn" onclick="nextSlide(3)">Lanjut ➡</button>
+  </div>
+
+  <!-- Slide 3: Galeri -->
+  <div class="slide" id="slide3">
+    <h2>Koleksi Momen Saya 📸</h2>
+    <div class="gallery">
+      <img src="kucing1.jpg.jpg" alt="Foto 1">
+      <img src="kucing2.jpg.jpg" alt="Foto 2">
+      <img src="kucing3.jpg.jpg" alt="Foto 3">
+    </div>
+    <button class="nav-btn" onclick="nextSlide(2)">⬅ Kembali</button>
+  </div>
+
+  <script>
+    function nextSlide(slideNumber) {
+      document.querySelectorAll('.slide').forEach(slide => slide.classList.remove('active'));
+      document.getElementById('slide' + slideNumber).classList.add('active');
+    }
+  </script>
+</body>
+</html>
