@@ -64,7 +64,7 @@ Efek ini membuat tampilan lebih interaktif.
 </div>
 ```
 Slide pertama berfungsi sebagai sambutan awal.
-Teks <h1> menyapa pengunjung.
+Teks `<h1>` menyapa pengunjung.
 Tombol "Lanjut ➡" mengarah ke slide 2 lewat fungsi nextSlide(2).
 class="active" → slide ini tampil pertama kali saat halaman dibuka.
 
@@ -80,9 +80,9 @@ class="active" → slide ini tampil pertama kali saat halaman dibuka.
   <button class="nav-btn" onclick="nextSlide(2)">⬅ Kembali</button>
 </div>
 ```
-udul <h2> → "Koleksi Momen Saya 📸".
-<div class="gallery"> → menampung 3 foto kucing dengan desain grid.
-Setiap <img> diberi alt (teks alternatif jika gambar tidak muncul).
+judul `<h2>` → "Koleksi Momen Saya 📸".
+`<div class="gallery">` → menampung 3 foto kucing dengan desain grid.
+Setiap `<img>` diberi alt (teks alternatif jika gambar tidak muncul).
 Tombol "⬅ Kembali" memungkinkan kembali ke slide 2.
 
 7. code untuk slide
