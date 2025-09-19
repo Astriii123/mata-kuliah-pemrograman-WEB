@@ -73,6 +73,7 @@
        document.write(...) → menampilkan teks ke dalam dokumen HTML.
        "Selamat Belajar Angkatan 2019" → teks yang ditampilkan.
        "<br>" → menambahkan baris baru (line break).
+
 4. memasukkan data
 ```<HTML> 
     <HEAD> 
@@ -147,6 +148,7 @@
   Jika pengguna klik OK → nilai yang dikembalikan adalah true.
   Jika pengguna klik Cancel → nilai yang dikembalikan adalah false.
   Nilai tersebut disimpan dalam variabel jawaban.
+  
 6. mendekasi variabel
 ```<HTML> 
     <HEAD> 
