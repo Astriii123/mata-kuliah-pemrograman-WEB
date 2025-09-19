@@ -148,7 +148,7 @@
   Jika pengguna klik OK → nilai yang dikembalikan adalah true.
   Jika pengguna klik Cancel → nilai yang dikembalikan adalah false.
   Nilai tersebut disimpan dalam variabel jawaban.
-  
+
 6. mendekasi variabel
 ```<HTML> 
     <HEAD> 
@@ -337,8 +337,7 @@ Output: 8. NaN
       <SCRIPT LANGUAGE="JavaScript">
       <!--
         var a = parseInt("45");
-        document.write("1. " + a + "<BR>");
-    
+        document.write("1. " + a + "<BR>"); 
         a = parseInt("45.9");
         document.write("2. " + a + "<BR>");
     
@@ -364,7 +363,7 @@ Output: 8. NaN
     </BODY>
     </HTML>
     ```
-    ![alt text](tgs1.png)
+    ![alt text](11.png)
    👉 var a = parseInt("45");
       document.write("1. " + a + "<BR>");
       parseInt("45") → mengubah string "45" menjadi bilangan bulat 45.
