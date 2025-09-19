@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kalkulator</title>
+</head>
+<body>
+  <h2>Kalkulator bangun ruangku</h2>
+
+  <h3>1. Volume Kubus</h3>
+  Sisi: <input type="text" id="sisi">
+  <button onclick="hitungKubus()">Hitung</button>
+  <p>Hasil: <span id="hasilKubus"></span></p>
+
+  <h3>2. Volume Balok</h3>
+  Panjang: <input type="text" id="panjang"><br>
+  Lebar: <input type="text" id="lebar"><br>
+  Tinggi: <input type="text" id="tinggi"><br>
+  <button onclick="hitungBalok()">Hitung</button>
+  <p>Hasil: <span id="hasilBalok"></span></p>
+
+  <h3>3. Volume Tabung</h3>
+  Jari-jari: <input type="text" id="jari"><br>
+  Tinggi: <input type="text" id="tinggiTabung"><br>
+  <button onclick="hitungTabung()">Hitung</button>
+  <p>Hasil: <span id="hasilTabung"></span></p>
+
+  <script language="JavaScript">
+    function hitungKubus() {
+      var s = parseFloat(document.getElementById("sisi").value);
+      var volume = s * s * s;
+      document.getElementById("hasilKubus").innerHTML = volume;
+    }
+
+    function hitungBalok() {
+      var p = parseFloat(document.getElementById("panjang").value);
+      var l = parseFloat(document.getElementById("lebar").value);
+      var t = parseFloat(document.getElementById("tinggi").value);
+      var volume = p * l * t;
+      document.getElementById("hasilBalok").innerHTML = volume;
+    }
+
+    function hitungTabung() {
+      var r = parseFloat(document.getElementById("jari").value);
+      var t = parseFloat(document.getElementById("tinggiTabung").value);
+      var volume = 3.14 * r * r * t; 
+      document.getElementById("hasilTabung").innerHTML = volume.toFixed(2);
+    }
+  </script>
+</body>
+</html>

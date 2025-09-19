@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contoh Array di JavaScript</title>
+</head>
+<body>
+  <h2>Script Menggunakan Tipe Data dalam Array</h2>
+
+  <script language="JavaScript">
+    // Membuat array
+    var buah = ["Apel", "Jeruk", "Mangga", "Pisang", "Anggur"];
+
+    // Menampilkan isi array
+    document.write("<b>Daftar Buah:</b><br>");
+    for (var i = 0; i < buah.length; i++) {
+      document.write((i+1) + ". " + buah[i] + "<br>");
+    }
+
+    // Contoh array angka
+    var angka = [1, 4, 5, 6, 8];
+
+    document.write("<br><b>Isi Array Angka:</b><br>");
+    for (var j = 0; j < angka.length; j++) {
+      document.write("Index " + j + " = " + angka[j] + "<br>");
+    }
+
+    // Operasi sederhana pada array angka
+    var total = 0;
+    for (var k = 0; k < angka.length; k++) {
+      total += angka[k];
+    }
+    document.write("<br><b>Jumlah Semua Angka = " + total + "</b>");
+  </script>
+</body>
+</html>
