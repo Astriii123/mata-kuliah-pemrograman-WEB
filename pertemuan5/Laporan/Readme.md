@@ -433,30 +433,30 @@
     ![alt text](1.2.png) <br>
     👉var buah = ["Apel", "Jeruk", "Mangga", "Pisang", "Anggur"];
     Membuat array bernama buah dengan elemen string.
-    Array:["Apel", "Jeruk", "Mangga", "Pisang", "Anggur"]
+    Array:["Apel", "Jeruk", "Mangga", "Pisang", "Anggur"]<br>
     👉document.write("<`b>Daftar Buah:</b`><br>");
-    Menampilkan teks Daftar Buah: di halaman web dalam format tebal <b> dan baris baru <br>.
+    Menampilkan teks Daftar Buah: di halaman web dalam format tebal <b> dan baris baru <br>
     👉for (var i = 0; i < buah.length; i++) {
     document.write((i+1) + ". " + buah[i] + "<br>");
     }
     Loop for → menampilkan semua elemen array buah.
     i = 0 hingga i < buah.length (0 sampai 4).
     (i+1) → nomor urut mulai dari 1.
-    buah[i] → mengambil elemen array ke-i.
+    buah[i] → mengambil elemen array ke-i. <br>
     👉var angka = [1, 4, 5, 6, 8];
-    Membuat array bernama angka dengan elemen angka.
+    Membuat array bernama angka dengan elemen angka.<br>
     👉for (var j = 0; j < angka.length; j++) {
     document.write("Index " + j + " = " + angka[j] + "<br>");
     }
-    Loop untuk menampilkan semua elemen array angka beserta indeksnya.
+    Loop untuk menampilkan semua elemen array angka beserta indeksnya. <br>
     👉var total = 0;
     for (var k = 0; k < angka.length; k++) {
     total += angka[k];
     }
     Menghitung jumlah semua angka dalam array angka.
-    total += angka[k] → menambahkan setiap elemen ke variabel total.
-    👉document.write("<`br><b`>Jumlah Semua Angka = " + total + "</b>");
-    Menampilkan hasil penjumlahan total 24 di halaman web.
+    total += angka[k] → menambahkan setiap elemen ke variabel total.<br>
+    👉document.write("<`br><b`>Jumlah Semua Angka = " + total + "<`/b`>");
+    Menampilkan hasil penjumlahan total 24 di halaman web.<br>
 
 14. tugas 3
     ```<html lang="id">
@@ -512,30 +512,30 @@
     Ke2: <input type="text" id="angka2"><br><br>
     Dua input teks:
     id="angka1" → tempat memasukkan angka pertama.
-    id="angka2" → tempat memasukkan angka kedua.
+    id="angka2" → tempat memasukkan angka kedua.<br>
     👉<button onclick="tambah()">+</button>
     <button onclick="kurang()">-</button>
     <button onclick="kali()">*</button>
     <button onclick="bagi()">/</button>
      Empat tombol operasi: tambah, kurang, kali, bagi.
-     Setiap tombol memanggil fungsi JavaScript tertentu saat diklik:
+     Setiap tombol memanggil fungsi JavaScript tertentu saat diklik:<br>
     👉<`h3>Hasil: <span id="hasil">0</span><`/h3>
-    Menampilkan hasil perhitungan, Awalnya hasil bernilai 0.
+    Menampilkan hasil perhitungan, Awalnya hasil bernilai 0.<br>
     👉let a = parseFloat(document.getElementById("angka1").value);
     parseFloat() → mengubah input teks menjadi angka desimal.
-    Menuliskan hasil a + b ke dalam elemen <span id="hasil">.
+    Menuliskan hasil a + b ke dalam elemen <span id="hasil">.<br>
     👉function kurang() {
     let a = parseFloat(document.getElementById("angka1").value);
     let b = parseFloat(document.getElementById("angka2").value);
     document.getElementById("hasil").innerText = a - b;
     }
-    Fungsi kurang(): melakukan pengurangan a - b.
+    Fungsi kurang(): melakukan pengurangan a - b.<br>
     👉function kali() {
     let a = parseFloat(document.getElementById("angka1").value);
     let b = parseFloat(document.getElementById("angka2").value);
     document.getElementById("hasil").innerText = a * b;
     }
-    Fungsi kali(): melakukan perkalian a * b.
+    Fungsi kali(): melakukan perkalian a * b.<br>
     👉function bagi() {
     let a = parseFloat(document.getElementById("angka1").value);
     let b = parseFloat(document.getElementById("angka2").value);
