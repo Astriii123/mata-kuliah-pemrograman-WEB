@@ -13,14 +13,13 @@
   </BODY> 
   </HTML>
   ```
-  ![alt text](1.png)
+  ![alt text](1.png) <br>
   <p> 
-  a. Pada bagian <`head`>, terdapat sebuah script JavaScript dengan perintah         document.   write("Program JavaSript Aku di kepala");. Perintah ini akan langsung   menuliskan teks "Program JavaSript Aku di kepala" ke halaman saat browser membaca bagian kepala dokumen.
+  a. Pada bagian <`head`>, terdapat sebuah script JavaScript dengan perintah         document.   write("Program JavaSript Aku di kepala");. Perintah ini akan langsung   menuliskan teks "Program JavaSript Aku di kepala" ke halaman saat browser membaca bagian kepala dokumen. <br>
   b. Pada bagian <`body`>, terdapat script lain dengan perintah document.write("Program JavaSript Aku di body");. Perintah ini juga menuliskan teks, yaitu "Program JavaSript Aku di body", saat browser membaca bagian isi halaman.</p>
 
 2. even tertentu
-   ```
-  <html> 
+   ```<html> 
     <head> 
     <title>Belajar Javascript : Mengenal Event Pada Javascript</title> 
     </head> 
@@ -38,25 +37,25 @@
     </body> 
     </html> 
     ```
-    ![alt text](2.png)
+    ![alt text](2.png) <br>
     <p>
     👉<`h1`>Mengenal Event Pada Javascript<`/h1`> 
-     Menampilkan judul utama halaman dengan ukuran besar (heading 1).
+    Menampilkan judul utama halaman dengan ukuran besar (heading 1).<br>
     👉<`h2`> Perograman WEB Event one click<`/h2> 
-     Menampilkan sub-judul (heading 2) untuk menjelaskan topik.
+    Menampilkan sub-judul (heading 2) untuk menjelaskan topik.<br>
     👉<`button onclick="tampilkan_nama()">klik disini `</`button> 
-     Membuat tombol Saat tombol diklik, event onclick akan menjalankan fungsi JavaScript bernama tampilkan_nama().
+    Membuat tombol Saat tombol diklik, event onclick akan menjalankan fungsi JavaScript bernama tampilkan_nama().<br>
     👉<`div id="hasil"></div`> 
-     Membuat sebuah elemen kosong dengan id="hasil".
-      Elemen ini akan diisi dengan teks/dokumen HTML oleh JavaScript.
+    Membuat sebuah elemen kosong dengan id="hasil".
+    Elemen ini akan diisi dengan teks/dokumen HTML oleh JavaScript.<br>
     👉<`script>   
-     Menandakan awal dari kode JavaScript yang ditulis langsung di dalam file HTML.
+    Menandakan awal dari kode JavaScript yang ditulis langsung di dalam file HTML.<br>
     👉function tampilkan_nama()
-     Mendefinisikan sebuah fungsi dengan nama tampilkan_nama.
-       Fungsi ini dipanggil saat tombol diklik.
+    Mendefinisikan sebuah fungsi dengan nama tampilkan_nama.
+    Fungsi ini dipanggil saat tombol diklik.<br>
     👉document.getElementById("hasil").innerHTML = 
-      "<`h3>Nama Saya Adalah Andi Akram Nur Risal<`/h3"; 
-        Isi fungsi:document.getElementById("hasil") → mencari elemen HTML dengan id "hasil" dan Nama Saya Adalah Andi Akram Nur Risal</p>
+    "<`h3>Nama Saya Adalah Andi Akram Nur Risal<`/h3"; 
+    Isi fungsi:document.getElementById("hasil") → mencari elemen HTML dengan id "hasil" dan Nama Saya Adalah Andi Akram Nur Risal</p>
 
 3. contoh sederhana
    ```<HTML> 
@@ -69,7 +68,7 @@
     </BODY> 
     </HTML>
     ```
-    ![alt text](3.png)
+    ![alt text](3.png) <br>
     👉document.write"Selamat Belajar Angkatan 2019"
        Perintah JavaScript untuk menulis langsung ke halaman web.
        document.write(...) → menampilkan teks ke dalam dokumen HTML.
@@ -84,14 +83,14 @@
     <BODY> 
     <SCRIPT LANGUAGE = "JavaScript"> 
     <!-- 
-       var nama = prompt("Siapa nama Anda?"); 
-       document.write("Hai, " + nama); 
+    var nama = prompt("Siapa nama Anda?"); 
+    document.write("Hai, " + nama); 
     //--> 
     </SCRIPT> 
     </BODY> 
     </HTML>
     ```
-    ![alt text](4.png)
+    ![alt text](4.png) <br>
     <p>
     👉 Bagian isi script:
     var nama = prompt("Siapa nama Anda?");
@@ -113,7 +112,7 @@
     </BODY> 
     </HTML>
     ```
-    ![alt text](5.1.png)
+    ![alt text](5.1.png) <br>
     <p> 
     👉window.alert("apakah anda akan meninggal halaman ini"); 
       aris utama kode JavaScript:
@@ -196,24 +195,24 @@
     </body>
     </html>
     ```
-    ![alt text](7.png)
+    ![alt text](7.png) <br>
     👉var a = 12;  
     var b = 4;  
-    Membuat dua variabel global:
+    Membuat dua variabel global: <br>
     👉a = 12
     b = 4
-    function Perkalian_Dengan2(b) {  
+    function Perkalian_Dengan2(b) {  <br>
     👉a = b * 2; 
     }  
     Definisi fungsi Perkalian_Dengan2 dengan parameter b.
     Di dalam fungsi, nilai global a diubah menjadi hasil b * 2.
-    Fungsi ini tidak memiliki return, jadi secara default mengembalikan undefined
+    Fungsi ini tidak memiliki return, jadi secara default mengembalikan undefined<br>
     👉document.write("Dua kali dari " + b + " adalah " + Perkalian_Dengan2(b) + 
     Menulis teks ke halaman:
     "Dua kali dari " + b → mencetak angka 4.
     Perkalian_Dengan2(b) → memanggil fungsi dengan b = 4.
     Fungsi akan mengubah a = 8 (karena 4 * 2).
-    Tapi karena tidak ada return, nilai yang dikembalikan adalah undefined.
+    Tapi karena tidak ada return, nilai yang dikembalikan adalah undefined.<br>
     👉document.write("Nilai dari a adalah " + a); 
     Menulis nilai variabel a setelah fungsi dipanggil.
 
@@ -244,7 +243,7 @@
     </body>
     </html>
     ```
-    ![alt text](8.png)
+    ![alt text](8.png) <br>
     <p>
     👉parseInt(27) → hasil 27 (bilangan bulat).
     Output: 1. 27<br>
@@ -286,7 +285,7 @@
     </BODY> 
     </HTML> 
     ```
-    ![alt text](9.png)
+    ![alt text](9.png) <br>
     document.write("2 + 3 = " + (2 + 3) ); 
     Operasi penjumlahan 2 + 3 = 5
     Output: 2 + 3 = 5
@@ -316,7 +315,7 @@
     </BODY> 
     </HTML> 
     ```
-    ![alt text](10.png)
+    ![alt text](10.png) <br>
     <p>
     👉var nilai = prompt("Nilai (0-100): ", 0); 
     prompt() → menampilkan kotak dialog input kepada pengguna.
@@ -365,7 +364,7 @@
     </BODY>
     </HTML>
     ```
-    ![alt text](1.1.png)
+    ![alt text](1.1.png) <br>
     👉 var a = parseInt("45");
     document.write("1. " + a + "<BR>");
     parseInt("45") → mengubah string "45" menjadi bilangan bulat 45.
@@ -431,7 +430,7 @@
     </body>
     </html>
     ```
-    ![alt text](1.2.png)
+    ![alt text](1.2.png) <br>
     👉var buah = ["Apel", "Jeruk", "Mangga", "Pisang", "Anggur"];
     Membuat array bernama buah dengan elemen string.
     Array:["Apel", "Jeruk", "Mangga", "Pisang", "Anggur"]
@@ -508,7 +507,7 @@
     </body>
     </html>
     ```
-    ![alt text](1.3.png)
+    ![alt text](1.3.png) <br>
     👉Ke1: <input type="text" id="angka1"><br><br>
     Ke2: <input type="text" id="angka2"><br><br>
     Dua input teks:
@@ -548,7 +547,7 @@
     Fungsi bagi():
     Jika b === 0, tampilkan pesan peringatan (alert) karena tidak bisa dibagi nol.Jika bukan nol, tampilkan hasil pembagian a / b.
 
-14. tugas 4
+15. tugas 4
     ```<html>
     <head>
     <title>tugas4</title>
@@ -630,7 +629,7 @@
     var volume = s * s * s;
     document.getElementById("hasilKubus").innerHTML = volume;
     }
-    Mengambil nilai sisi dari input, diubah menjadi angka desimal (parseFloat).
+    Mengambil nilai sisi dari inputs, diubah menjadi angka desimal (parseFloat).
     Menghitung volume kubus: s³.
     Menampilkan hasil di <span id="hasilKubus">.<br>
     👉function hitungBalok() {
