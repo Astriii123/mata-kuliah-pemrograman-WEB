@@ -605,25 +605,25 @@
     <'p'>Hasil: <`span id="hasilKubus"><`/span><'/p'>
     <`input> dengan id="sisi" → untuk memasukkan panjang sisi kubus.
     <`button`> memanggil fungsi hitungKubus() saat diklik.
-    <`span id="hasilKubus"> → menampilkan hasil volume kubus.<br>
+    <span id="hasilKubus"> → menampilkan hasil volume kubus.<br>
     👉<`h3`>2. Volume Balok<`/h3`>
-    Panjang: <`input type="text" id="panjang"><br>
-    Lebar: <`input type="text" id="lebar"><br>
-    Tinggi: <`input type="text" id="tinggi"><br>
-    <`button onclick="hitungBalok()">Hitung<`/button>
+    Panjang: <input type="text" id="panjang"><br>
+    Lebar: <input type="text" id="lebar"><br>
+    Tinggi: <input type="text" id="tinggi"><br>
+    <button onclick="hitungBalok()">Hitung</button>
     <`p>Hasil: <span id="hasilBalok"></span><`/p`>
     Tiga input: panjang, lebar, tinggi (id="panjang", "lebar", "tinggi").
     Tombol menghitung memanggil hitungBalok().
     <span id="hasilBalok"> menampilkan hasil volume balok. <br>
     👉<`h3>2. Volume Balok<`/h3`>
-    Panjang: <`input type="text" id="panjang"><br>
-    Lebar: <`input type="text" id="lebar"><br>
-    Tinggi: <`input type="text" id="tinggi"><br>
-    <`button onclick="hitungBalok()">Hitung</button>
-    <'p>Hasil: <`span id="hasilBalok"></span><`/p>
+    Panjang: <input type="text" id="panjang"><br>
+    Lebar: <input type="text" id="lebar"><br>
+    Tinggi: <input type="text" id="tinggi"><br>
+    <button onclick="hitungBalok()">Hitung</button>
+    <'p>Hasil: <span id="hasilBalok"></span><`/p>
     Tiga input: panjang, lebar, tinggi (id="panjang", "lebar", "tinggi").
     Tombol menghitung memanggil hitungBalok().
-    <`span id="hasilBalok"> menampilkan hasil volume balok.<br>
+    <span id="hasilBalok"> menampilkan hasil volume balok.<br>
     👉function hitungKubus() {
     var s = parseFloat(document.getElementById("sisi").value);
     var volume = s * s * s;
@@ -631,7 +631,7 @@
     }
     Mengambil nilai sisi dari inputs, diubah menjadi angka desimal (parseFloat).
     Menghitung volume kubus: s³.
-    Menampilkan hasil di <`span id="hasilKubus">.<br>
+    Menampilkan hasil di <span id="hasilKubus">.<br>
     👉function hitungBalok() {
     var p = parseFloat(document.getElementById("panjang").value);
     var l = parseFloat(document.getElementById("lebar").value);
@@ -641,7 +641,7 @@
     }
     Mengambil nilai panjang, lebar, tinggi dari input.
     Menghitung volume balok: p × l × t.
-    Menampilkan hasil di <`span id="hasilBalok">.<br>
+    Menampilkan hasil di <span id="hasilBalok">.<br>
     👉function hitungTabung() {
     var r = parseFloat(document.getElementById("jari").value);
     var t = parseFloat(document.getElementById("tinggiTabung").value);
@@ -651,7 +651,7 @@
     Mengambil nilai jari-jari dan tinggi tabung.
     Menghitung volume tabung: π × r² × t (π ≈ 3.14).
     toFixed(2) → membatasi hasil menjadi 2 angka desimal.
-    Hasil ditampilkan di <`span id="hasilTabung"`>.
+    Hasil ditampilkan di <span id="hasilTabung">.
 
 
 
