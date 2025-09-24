@@ -435,7 +435,7 @@
     Membuat array bernama buah dengan elemen string.
     Array:["Apel", "Jeruk", "Mangga", "Pisang", "Anggur"]<br>
     👉document.write("<`b>Daftar Buah:</b`><br>");
-    Menampilkan teks Daftar Buah: di halaman web dalam format tebal <b> dan baris baru <br>
+    Menampilkan teks Daftar Buah: di halaman web dalam format tebal <`b`> dan baris baru <br>
     👉for (var i = 0; i < buah.length; i++) {
     document.write((i+1) + ". " + buah[i] + "<br>");
     }
@@ -455,7 +455,7 @@
     }
     Menghitung jumlah semua angka dalam array angka.
     total += angka[k] → menambahkan setiap elemen ke variabel total.<br>
-    👉document.write("<`br><b`>Jumlah Semua Angka = " + total + "<`/b`>");
+    👉document.write("<`br><b`>Jumlah Semua Angka = " + total + `</b>`;
     Menampilkan hasil penjumlahan total 24 di halaman web.<br>
 
 14. tugas 3
