@@ -614,7 +614,7 @@
     <`p>Hasil: <span id="hasilBalok"></span><`/p`>
     Tiga input: panjang, lebar, tinggi (id="panjang", "lebar", "tinggi").
     Tombol menghitung memanggil hitungBalok().
-    <span id="hasilBalok"> menampilkan hasil volume balok.<br>
+    <span id="hasilBalok"> menampilkan hasil volume balok. <br>
     👉<`h3>2. Volume Balok<`/h3`>
     Panjang: <input type="text" id="panjang"><br>
     Lebar: <input type="text" id="lebar"><br>
