@@ -368,31 +368,31 @@
     👉 var a = parseInt("45");
     document.write("1. " + a + "<BR>");
     parseInt("45") → mengubah string "45" menjadi bilangan bulat 45.
-    document.write() → menampilkan teks 1. 45 di halaman.
+    document.write() → menampilkan teks 1. 45 di halaman.<br>
    👉a = parseInt("45.9");
     document.write("2. " + a + "<BR>");
     parseInt("45.9") → membaca angka di awal, bagian desimal .9 diabaikan → hasil 45.
-    Output: 2. 45  
+    Output: 2. 45  <br>
    👉 a = parseInt("45X");
     document.write("3. " + a + "<BR>");
     parseInt("45X") → membaca angka di awal, huruf X diabaikan → hasil 45.
-    Output: 3. 45 
+    Output: 3. 45 <br>
    👉ca = parseInt("X45.9");
     document.write("4. " + a + "<BR>");
     parseInt("X45.9") → string diawali huruf → tidak valid → hasil NaN.
-    Output: 4. NaN
+    Output: 4. NaN<br>
    👉var b = parseFloat("45");
     document.write("5. " + b + "<BR>");
     parseFloat("45") → mengubah string menjadi bilangan desimal → hasil 45.
-    Output: 5. 45
+    Output: 5. 45<br>
    👉b = parseFloat("45.9");
     document.write("6. " + b + "<BR>");
     parseFloat("45.9") → string dikonversi menjadi float → hasil 45.9.
-    Output: 6. 45.9
+    Output: 6. 45.9<br>
    👉b = parseFloat("45X");
     document.write("7. " + b + "<BR>");
     parseFloat("45X") → membaca angka di awal, huruf X diabaikan → hasil 45.
-    Output: 7. 45
+    Output: 7. 45<br>
    👉b = parseFloat("X45.9");
     document.write("8. " + b + "<BR>");
     parseFloat("X45.9") → string diawali huruf → tidak valid → hasil NaN.
