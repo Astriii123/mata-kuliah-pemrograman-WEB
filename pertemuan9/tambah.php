@@ -27,7 +27,7 @@
     $title = $_POST['title'];
     $content = $_POST['content'];
 
-    // Siapkan query agar aman dari SQL injection
+  
     $stmt = $conn->prepare("INSERT INTO entries (judul, isi, tanggal) VALUES (?, ?, CURDATE())");
     $stmt->bind_param("ss", $title, $content);
 
