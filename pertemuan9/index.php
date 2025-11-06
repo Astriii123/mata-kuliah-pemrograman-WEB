@@ -22,7 +22,7 @@
     </thead>
     <tbody>
     <?php
-    // Ambil data dari tabel entries berdasarkan kolom tanggal terbaru
+    
     $result = $conn->query("SELECT * FROM entries ORDER BY tanggal DESC");
 
     if ($result && $result->num_rows > 0) {
