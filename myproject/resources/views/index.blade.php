@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kedai Es Teler Sariwangi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .carousel {
+      scroll-snap-type: x mandatory;
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+    }
+    .carousel::-webkit-scrollbar {
+      display: none;
+    }
+    .carousel-item {
+      scroll-snap-align: start;
+      flex: 0 0 100%;
+      width: 100%;
+    }
+    .nav-pill {
+      background-color: #d1fae5;
+      color: #065f46;
+      font-weight: 600;
+      border-radius: 9999px;
+      padding: 0.5rem 1.25rem;
+      transition: all 0.3s;
+    }
+    .nav-pill:hover {
+      background-color: #047857;
+      color: white;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <header class="bg-green-700 text-white text-center p-6 shadow-md">
+    <h1 class="text-4xl font-extrabold tracking-wide">Kedai Es Teler Sariwangi</h1>
+    <p class="mt-1 text-green-200 text-lg">Segarkan harimu dengan minuman spesial kami!</p>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 mt-12">
+    <div class="carousel rounded-lg shadow-lg mb-8">
+
+<section class="carousel-item bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row gap-6">
+  <img class="object-cover w-full rounded-t-lg h-48 md:h-auto md:w-1/2 md:rounded-none md:rounded-l-lg" src="gambarrr.jpg" alt="Kedai Es Teler Sariwangi" />
+
+  <div class="flex flex-col justify-start md:w-1/2 gap-4">
+    
+    <h2 class="text-4xl font-extrabold tracking-tight text-green-800 text-center md:text-left">
+      Selamat Datang di Kedai Es Teler Sariwangi!
+    </h2>
+   
+    <p class="text-lg text-green-700 text-center md:text-left">
+      Kami menyediakan berbagai pilihan minuman segar seperti Es Teler, Big Tea, dan Alpukat Kocok dengan harga terjangkau.
+    </p>
+
+    <div class="rounded-lg overflow-hidden shadow-lg mt-4">
+      <h3 class="text-2xl font-bold text-center text-green-900 mb-2">📍 Lokasi Kami</h3>
+      <p class="text-center text-green-700 mb-2">
+        Berada tepat di lorong kiri pertama sebelah kiri kampus UNM Parangtambung
+      </p>
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.186761527223!2d119.427993414776!3d-5.186715096175504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee22c0f62e6c5%3A0x94b7f38f06d91e73!2sKedai%20Es%20Teler%20Sariwangi!5e0!3m2!1sid!2sid!4v1702032000000!5m2!1sid!2sid"
+      width="100%"
+      height="300"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe> 
+    </div>
+  </div>
+</section>
+      <section class="carousel-item bg-gradient-to-br from-green-50 to-green-100 py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl text-center">
+            <h2 class="text-4xl font-bold tracking-tight text-green-900 sm:text-5xl">Menu & Harga</h2>
+            <p class="mt-4 text-lg leading-8 text-green-700">Pilih menu favoritmu dan pesan langsung.</p>
+          </div>
+
+          <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <ul class="space-y-4 text-lg font-semibold text-green-900">
+              <li class="flex items-center justify-between">
+                <span>Es Teler Biasa</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 10.000</span>
+                  <button onclick="addToCart('Es Teler Biasa')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+              <li class="flex items-center justify-between">
+                <span>Es Teler Alpukat</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 8.000 / 10.000</span>
+                  <button onclick="addToCart('Es Teler Alpukat')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+              <li class="flex items-center justify-between">
+                <span>Es Buah Sop Buah Segar</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 10.000</span>
+                  <button onclick="addToCart('Es Buah Sop Buah Segar')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+              <li class="flex items-center justify-between">
+                <span>Es Kelapa Muda</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 8.000</span>
+                  <button onclick="addToCart('Es Kelapa Muda')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+              <li class="flex items-center justify-between">
+                <span>Es Cendol</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 8.000</span>
+                  <button onclick="addToCart('Es Cendol')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+              <li class="flex items-center justify-between">
+                <span>Salad Buah</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 12.000</span>
+                  <button onclick="addToCart('Salad Buah')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+            </ul>
+
+            <ul class="space-y-4 text-lg font-semibold text-green-900">
+              <li class="flex items-center justify-between">
+                <span>Es Campur</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 10.000</span>
+                  <button onclick="addToCart('Es Campur')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+              <li class="flex items-center justify-between">
+                <span>Es Pisang Ijo</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 10.000</span>
+                  <button onclick="addToCart('Es Pisang Ijo')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+              <li class="flex items-center justify-between">
+                <span>Es Cincau</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 7.000</span>
+                  <button onclick="addToCart('Es Cincau')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+              <li class="flex items-center justify-between">
+                <span>Es Jeruk Peras</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 5.000</span>
+                  <button onclick="addToCart('Es Jeruk Peras')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+              <li class="flex items-center justify-between">
+                <span>Big Tea</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 5.000</span>
+                  <button onclick="addToCart('Big Tea')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+              <li class="flex items-center justify-between">
+                <span>Alpukat Kocok + Milo</span>
+                <span class="flex items-center">
+                  <span class="text-green-700 font-extrabold mr-3">Rp 12.000</span>
+                  <button onclick="addToCart('Alpukat Kocok + Milo')" class="px-3 py-1 rounded-lg bg-green-600 text-white hover:bg-green-700 transition">Pesan</button>
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-10 max-w-4xl mx-auto bg-white shadow-md p-6 rounded-lg">
+            <h3 class="text-2xl font-bold mb-4 text-green-900">Keranjang Pesanan:</h3>
+            <ul id="cart" class="list-disc list-inside text-green-800 min-h-[100px]">
+              <li class="text-sm italic text-gray-500">Belum ada pesanan.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel-item bg-white p-10 rounded-lg">
+        <h2 class="text-4xl font-extrabold text-center mb-8 text-green-800">Galeri Menu</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <img src="salad_buahh.jpg" alt="Salad Buah" class="rounded-lg shadow-lg object-cover h-64 w-full hover:scale-105 transition-transform duration-280" />
+          <img src="psng_ijo.jpg" alt="Es Pisang Ijo" class="rounded-lg shadow-lg object-cover h-64 w-full hover:scale-105 transition-transform duration-280" />
+          <img src="alpukad_milo.jpg" alt="Alpukat Kocok" class="rounded-lg shadow-lg object-cover h-64 w-full hover:scale-105 transition-transform duration-280" />
+          <img src="cendol.jpg" alt="Big Tea" class="rounded-lg shadow-lg object-cover h-64 w-full hover:scale-105 transition-transform duration-280" />
+          <img src="cincau.jpg" alt="Big Tea" class="rounded-lg shadow-lg object-cover h-64 w-full hover:scale-105 transition-transform duration-280" />
+          <img src="es campur.jpg" alt="Big Tea" class="rounded-lg shadow-lg object-cover h-64 w-full hover:scale-105 transition-transform duration-280" />
+          <img src="es kelapa.jpg" alt="Big Tea" class="rounded-lg shadow-lg object-cover h-64 w-full hover:scale-105 transition-transform duration-280" />
+          <img src="es_teler_alpukad.jpg" alt="Big Tea" class="rounded-lg shadow-lg object-cover h-64 w-full hover:scale-105 transition-transform duration-280" />
+          <img src="es_teler_biasa.jpg" alt="Big Tea" class="rounded-lg shadow-lg object-cover h-64 w-full hover:scale-105 transition-transform duration-280" />
+          <img src="tea.jpg" alt="Big Tea" class="rounded-lg shadow-lg object-cover h-64 w-full hover:scale-105 transition-transform duration-280" />
+          <img src="jeruk_peras.jpg" alt="Big Tea" class="rounded-lg shadow-lg object-cover h-64 w-full hover:scale-105 transition-transform duration-280" />
+        </div>
+      </section>
+
+    </div>
+
+    <div class="flex justify-center gap-6 flex-wrap mb-12">
+      <button class="nav-pill" data-slide="0">🏠 Home</button>
+      <button class="nav-pill" data-slide="1">📋 Menu</button>
+      <button class="nav-pill" data-slide="2">🖼️ Galeri</button>
+    </div>
+
+  </main>
+
+
+  <footer class="bg-green-700 text-white text-center p-6 mt-14 shadow-inner">
+    <p>© 2025 Kedai Es Teler Sariwangi. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <script>
+    const carousel = document.querySelector('.carousel');
+    const buttons = document.querySelectorAll('.nav-pill');
+    const cartElement = document.getElementById('cart');
+    let cart = [];
+
+    function addToCart(itemName) {
+      cart.push(itemName);
+      updateCart();
+    }
+
+    function updateCart() {
+      if (cart.length === 0) {
+        cartElement.innerHTML = '<li class="text-sm italic text-gray-500">Belum ada pesanan.</li>';
+      } else {
+        const counts = {};
+        cart.forEach(item => counts[item] = (counts[item] || 0) + 1);
+        cartElement.innerHTML = Object.entries(counts).map(([item, count]) =>
+          `<li>${item} x ${count}</li>`
+        ).join('');
+      }
+    }
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        const slideIndex = parseInt(button.getAttribute('data-slide'));
+        carousel.scrollTo({ left: slideIndex * carousel.clientWidth, behavior: 'smooth' });
+        setActiveButton(slideIndex);
+      });
+    });
+
+    function setActiveButton(index) {
+      buttons.forEach((btn, i) => btn.classList.toggle('bg-green-700 text-white', i === index));
+    }
+
+    carousel.addEventListener('scroll', () => {
+      const index = Math.round(carousel.scrollLeft / carousel.clientWidth);
+      setActiveButton(index);
+    });
+
+    updateCart();
+    setActiveButton(0);
+  </script>
+
+</body>
+</html>
